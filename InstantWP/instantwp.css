@@ -45,6 +45,10 @@
   cursor: default;
 }
 
+.wrap_dir.no-projects a:hover {
+  background: none;
+}
+
 .wrapper .footer {
   font-size: .85em;
   color: #aeaeae;
