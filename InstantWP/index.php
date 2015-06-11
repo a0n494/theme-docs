@@ -112,7 +112,7 @@ if(preg_match('/\.NET/i',$serverInfo))
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 	<script>
 		$(function() {
-			if ($('.wrap_dirs:last-child .dir').length == 1) {
+			if ($('.wrap_dirs:last-child .dir').length == 0) {
 				$('.no-projects').show();
 			};
 		});
